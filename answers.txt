@@ -1,0 +1,55 @@
+Tutorials: 10/20/2023
+GIT Hub Account: 10/04/2023
+
+1. C:\Users\LVVAC\Downloads\assignment-master>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Bicycle.cpp
+        Bicycle.h
+        Car.cpp
+        Car.h
+        PoweredVehicle.cpp
+        PoweredVehicle.h
+        README.md
+        Vehicle.cpp
+        Vehicle.h
+        main.cpp
+
+2. Number of Commits in the Repository:
+   8
+
+3. Last Modification of README.md:
+   1 hour ago
+
+4. Reasons for Using Branches in Git:
+   Branches are used in Git for the following reasons:
+   I. Isolation of features or bug fixes.
+   2. Parallel development and collaboration.
+
+5. Difference Between git log and git status:
+   git log` shows the commit history, displaying information about each commit, including commit messages, authors, and commit hashes. It provides a detailed log of all commits.
+   git status` shows the status of the working directory. It displays information about untracked files, changes to be committed, and the current branch.
+
+6. Command to See Commits with "Vehicle.h":
+   git log --oneline -- "Vehicle.h"
+
+7. Command to See Commits Whose Commit Message Contains the Word “file”:
+   git log --oneline --grep="file"
+
+8. Object-Oriented Programming Concepts:
+   Inheritance is a concept in OOP where a new class (subclass or derived class) is created by inheriting properties and behaviors from an existing class (base class or parent class). It allows for code reuse and the creation of a hierarchy of classes.
+   Polymorphism is a concept in OOP that allows objects of different classes to be treated as objects of a common base class. It enables flexibility and extensibility in your code by allowing different implementations of methods with the same name.
+   Encapsulation is the principle of bundling the data (attributes) and methods (functions) that operate on the data into a single unit, known as a class. It restricts access to some of the object's components, providing data protection and reducing complexity.
+
+9. Main Difference Between "Dictator and Lieutenants" and "Integration Manager" Workflow:
+	Lieutenants merge the developers' topic branches into their master branch. The dictator merges the lieutenants' master branches into the dictator's master branch. 
+10. Benefits of "Dictator and Lieutenants" Workflow for a Team of 100 Developers:
+     Lieutenants are responsible for reviewing and approving changes within their areas of expertise. This results in more focused and thorough code reviews, as maintainers have a deep understanding of the code they oversee.
